@@ -1,0 +1,2 @@
+{ "cleanUrls": true, "rewrites": [ { "source": "/link", "destination": "/link.html" } ],
+  "headers": [ { "source": "/(.*)", "headers": [ { "key": "X-Robots-Tag", "value": "noindex" } ] } ] }

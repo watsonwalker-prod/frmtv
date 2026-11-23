@@ -1,0 +1,1 @@
+{ "name": "frmtv", "private": true, "dependencies": { "qrcode": "^1.5.4", "@vercel/blob": "^2.0.0" } }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"><script>if(window.tizen)document.documentElement.className="tizen"</script><head><meta charset="utf-8">
+<meta name="viewport" content="width=1920,height=1080,initial-scale=1">
+<title>FRAIMOUS</title>
+<link rel="stylesheet" href="fonts/fonts.css"><link rel="stylesheet" href="style.css">
+</head><body>
+<div id="stage">
+  <div id="gallery">
+    <div class="slide" id="slideA"><img alt=""><div class="lock"></div></div>
+    <div class="slide" id="slideB"><img alt=""><div class="lock"></div></div>
+    <div class="vignette"></div>
+    <img class="corner-mark" src="img/wordmark.png" alt="FRAIMOUS">
+  </div>
+  <div id="info" class="panel">
+    <div class="info-inner">
+      <div class="eyebrow"><span id="infoIdx"></span><span class="rule"></span><span id="infoCol"></span></div>
+      <h1 id="infoTitle"></h1>
+      <p id="infoNote"></p>
+      <p class="brand-line">FRAIMOUS</p>
+      <div class="hints"><span><b>&#9664; &#9654;</b> Browse</span><span><b>&#9660;</b> Collections</span><span><b>Back</b> Close</span></div>
+    </div>
+  </div>
+  <div id="grid" class="panel">
+    <div class="grid-head"><img src="img/wordmark.png" alt="FRAIMOUS"><span class="eyebrow">The Collections</span></div>
+    <div id="rows"></div>
+    <div class="grid-foot"><div><span class="eyebrow" id="gCol"></span><h2 id="gTitle"></h2></div>
+      <div class="hints"><span><b>&#9650; &#9660; &#9664; &#9654;</b> Select</span><span><b>OK</b> View</span><span><b>Back</b> Return</span></div></div>
+  </div>
+  <div id="pair" class="panel">
+    <div class="pair-l">
+      <img class="pair-mark" src="img/wordmark.png" alt="FRAIMOUS">
+      <div class="eyebrow">Membership</div>
+      <h1>Unlock the Full Collection</h1>
+      <p class="pair-lead">Scan with your phone, or visit the link below and enter this code.</p>
+      <div class="pair-code" id="pairCode"></div>
+      <p class="pair-url" id="pairUrl"></p>
+      <p class="pair-status" id="pairStatus"><span class="dot"></span>Waiting for your phone</p>
+    </div>
+    <div class="pair-r"><div class="qr-card"><img id="pairQr" alt=""><span>Scan to Unlock</span></div></div>
+    <div class="hints pair-hints"><span><b>Back</b> Return to Gallery</span></div>
+  </div>
+  <div id="toast"><span class="eyebrow">Membership Active</span><b>Welcome to the Full Collection</b></div>
+  <div id="splash">
+    <div class="splash-bg"></div>
+    <div class="splash-content">
+      <img class="splash-mark" src="img/wordmark.png" alt="FRAIMOUS">
+      <p class="splash-tag">Gallery Mode for Your Wall</p>
+      <span class="splash-line"></span>
+    </div>
+  </div>
+</div>
+<script src="data.js"></script><script src="main.js"></script>
+</body></html>
